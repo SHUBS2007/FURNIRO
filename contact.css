@@ -1,0 +1,289 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Mukta:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility classes */
+
+body {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* nav bar */
+nav {
+    margin: 0 5rem;
+    height: 5.5em;
+    justify-content: space-between;
+}
+
+.menu {
+    display: none;
+}
+
+nav a {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #b58b28;
+}
+
+.icons {
+    font-size: 1.2rem;
+    gap: 2em;
+}
+
+ul {
+    margin-right: -5em;
+    gap: 4em;
+    font-weight: 600;
+}
+
+/* hero section */
+.hero-section {
+    position: relative;
+}
+
+.hero-section img {
+    height: 18rem;
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 6rem;
+    left: 35rem;
+    flex-direction: column;
+}
+
+/* sort description */
+.sort-description {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.sort-description h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sort-description p {
+    width: 74vw;
+    color: #969696;
+}
+
+/* information-section  */
+.main-form-section {
+    height: auto;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+}
+
+.information-section {
+    margin-top: -13rem;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.information-section p {
+    font-weight: 500;
+}
+
+.information-section i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: -4rem;
+}
+
+.address {
+    width: 14rem;
+}
+
+.address-text {
+    margin-top: 2rem;
+}
+
+.working-time {
+    width: 16rem;
+    margin-left: 2rem;
+}
+
+.working-time i {
+    margin-top: -6rem;
+}
+
+/* form-section */
+.form-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+form input,
+textarea {
+    margin-top: 1.5rem;
+    height: 4.5rem;
+    width: 85%;
+    padding: 25px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #b88f2f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    height: 4em;
+    width: 15em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #6d541b;
+
+}
+/* services section */
+.services-section{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #faf3ea;
+    height: 15rem;
+}
+.services-img img{
+ height: 3.5rem;
+}
+.services-text h1{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.services-text p{
+    font-weight: 400;
+    color: #464646;
+}
+/* semi-footer  */
+
+.semi-footer {
+    padding: 3rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border-top: 2px solid #dbdbdb;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.semi-footer a:hover {
+    color: var(--big-font-color);
+    border-bottom: 2px solid var(--big-font-color);
+
+}
+
+.semi-footer a {
+    color: #000000;
+    font-weight: 600;
+}
+
+.light-heding {
+    color: #464646;
+}
+
+.Funiro-address {
+    width: 20rem;
+}
+
+.Funiro-address h2 {
+    margin-bottom: 3rem;
+}
+
+.links {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Help {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.newsletter {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-inputs {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-inputs input {
+    height: 1.6rem;
+    border: none;
+    border-bottom: 2px solid;
+
+}
+
+.footer-inputs p {
+    border-bottom: 2px solid;
+}
+
+/* main footer */
+
+.main-footer {
+    border-top: 2px solid #dbdbdb;
+    padding: 30px 0;
+    margin-left: 3rem;
+    width: 85%;
+}

@@ -1,0 +1,284 @@
+/* large leptop */
+@media only screen and (max-width: 1440px) {
+
+    /* hero section */
+    .hero-text {
+        left: 38rem;
+    }
+
+    /* aside-2 search bar */
+    .aside-2-search-i {
+        right: 8rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* nav bar */
+    nav li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    /* hero section */
+    .hero-text {
+        left: 30rem;
+    }
+}
+
+
+/* for tablets size-768px  */
+@media only screen and (max-width: 768px) {
+
+    /* hero section */
+    .hero-text {
+        left: 20rem;
+    }
+
+    /* main-form section */
+    .information-section {
+        margin-top: 0;
+    }
+
+    form input,
+    textarea {
+        margin-top: 1rem;
+        height: 4.5rem;
+        width: 100%;
+    }
+
+    .btn {
+        margin-top: 4%;
+        margin-left: 30%;
+    }
+}
+
+/* for phone size-600px */
+@media only screen and (max-width: 600px) {
+
+    /* nav bar */
+    .menu {
+        margin-left: -2em;
+        margin-right: 1rem;
+    }
+
+    .icons {
+        font-size: 1.1rem;
+        gap: 1em;
+    }
+
+    /* hero section */
+    .hero-text {
+        left: 5rem;
+    }
+
+    /* sort description */
+    .sort-description {
+        justify-content: center;
+    }
+
+    .sort-description h1 {
+        font-size: 2.5rem;
+    }
+
+    .sort-description p {
+        width: 78vw;
+    }
+
+    /* main form section */
+    .information-section i {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        margin-top: -7rem;
+    }
+
+    .address {
+        width: 20rem;
+    }
+
+    .phone {
+        width: 20rem;
+    }
+
+    .working-time {
+        width: 20rem;
+    }
+
+    .working-time i {
+        margin-top: -15rem;
+    }
+
+    /* services-section  */
+    .services-section {
+        padding-left: 2rem;
+        width: 100%;
+        height: 45rem;
+        gap: 3rem;
+    }
+
+    .quality-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .warranty-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .shipping-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .support-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .services-text {
+        font-size: 2rem;
+    }
+
+    .services-text p {
+        font-size: 1.5rem;
+    }
+
+    /* footer */
+    .semi-footer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .Funiro-address h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .semi-footer address,
+    p {
+        font-size: 2rem;
+    }
+
+    .links {
+        margin: 1rem 7rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Help {
+        margin: 1rem 6rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-inputs input {
+        height: 3rem;
+    }
+
+    .footer-inputs p {
+        font-size: 1.5rem;
+    }
+}
+
+/* small phone */
+@media only screen and (max-width: 375px) {
+
+    /* nav bar */
+    nav {
+        justify-content: center;
+    }
+
+    .menu {
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        font-size: 1rem;
+        margin-right: -1rem;
+    }
+
+    /* survices section */
+    .quality-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .services-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .warranty-section {
+        padding-left: 1em;
+        width: 100%;
+    }
+
+    .shipping-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .support-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .services-text p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* hero section */
+    .semi-footer address,
+    p {
+        font-size: 1rem;
+    }
+
+    .sort-description h1 {
+        font-size: 2rem;
+    }
+
+    /* main form section */
+    .information-section i {
+        margin-top: -3rem;
+    }
+
+    .working-time i {
+        margin-top: -4rem;
+    }
+
+    .btn {
+        margin-top: 4%;
+        margin-left: 15%;
+    }
+
+    /* services section */
+    .Funiro-address {
+        width: auto;
+    }
+
+    .working-time {
+        margin: 0;
+        width: auto;
+    }
+
+    /* semi footer */
+
+    .semi-footer {
+        padding: 2rem;
+    }
+}

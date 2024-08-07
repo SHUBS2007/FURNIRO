@@ -1,0 +1,305 @@
+/* large leptop */
+@media only screen and (max-width: 1440px) {
+
+    /* hero section */
+    .hero-text {
+        left: 38rem;
+    }
+
+    /* aside-2 search bar */
+    .aside-2-search-i {
+        right: 5rem;
+    }
+}
+
+/* leptop */
+@media only screen and (max-width: 1024px) {
+
+    /* nav bar */
+    nav li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    /* hero section */
+    .hero-text {
+        left: 30rem;
+    }
+
+    /* aside-2 search bar */
+    .aside-2-search-i {
+        right: 3.3rem;
+    }
+}
+
+
+/* for tablets size  */
+@media only screen and (max-width: 768px) {
+
+    /* hero section */
+    .hero-text {
+        left: 20rem;
+    }
+}
+
+/* for phone size-600px */
+@media only screen and (max-width: 600px) {
+
+    /* nav bar */
+    .menu {
+        margin-left: -2em;
+        margin-right: 1rem;
+    }
+
+    .icons {
+        font-size: 1.1rem;
+        gap: 1em;
+    }
+
+    /* hero section */
+    .hero-text {
+        left: 9rem;
+    }
+
+    /* main blog section */
+    .container {
+        width: 100%;
+        margin: 0 1rem;
+    }
+
+    .main-blog-section {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .blog-img {
+        width: 100%;
+    }
+
+    .minimal-design-text p {
+        line-break: anywhere;
+        font-size: 1.5rem;
+    }
+
+    .sort-info {
+        gap: 2.8rem;
+    }
+
+    .sort-info p {
+        font-size: 1rem;
+    }
+
+    .info {
+        margin: 0.5rem;
+        color: #676767;
+        gap: 0.5rem;
+    }
+
+    .aside-2-search-i {
+        position: absolute;
+        top: 190.5rem;
+        right: 6.3rem;
+        font-size: 1.4rem;
+    }
+
+    /*categories section */
+    .categories-section h2 {
+        font-size: 2rem;
+    }
+
+    .handmade :first-child {
+        font-size: 1.2rem;
+    }
+
+    /* recent posts section */
+    .recent-posts-section {
+        margin-bottom: 5rem;
+    }
+
+    .recent-posts-section h2 {
+        font-size: 2rem;
+    }
+
+    /* services-section  */
+    .services-section {
+        padding-left: 2rem;
+        width: 100%;
+        height: 45rem;
+        gap: 3rem;
+    }
+
+    .quality-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .warranty-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .shipping-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .support-section {
+        padding-left: 2rem;
+        width: 100%;
+    }
+
+    .services-text {
+        font-size: 2rem;
+    }
+
+    .services-text p {
+        font-size: 1.5rem;
+    }
+
+    /* footer */
+    .semi-footer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .Funiro-address h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .semi-footer address,
+    p {
+        font-size: 2rem;
+    }
+
+    .links {
+        margin: 1rem 7rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Help {
+        margin: 1rem 6rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-inputs input {
+        height: 3rem;
+    }
+
+    .footer-inputs p {
+        font-size: 1.5rem;
+    }
+}
+
+/* small phone */
+@media only screen and (max-width: 375px) {
+
+    /* nav bar */
+    nav {
+        justify-content: center;
+    }
+
+    .menu {
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        font-size: 1rem;
+        margin-right: -1rem;
+    }
+
+    /* survices section */
+    .quality-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .services-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .warranty-section {
+        padding-left: 1em;
+        width: 100%;
+    }
+
+    .shipping-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .support-section {
+        padding-left: 1rem;
+        width: 100%;
+    }
+
+    .services-text p {
+        font-size: 1.5rem;
+    }
+
+    .sort-info {
+        gap: 0.9rem;
+    }
+
+    /* sort-information section */
+    .sort-info {
+        gap: 0.9rem;
+    }
+
+    /* aisde-2 section seach bar */
+    .aside-2-search-i {
+        position: absolute;
+        top: 197.5rem;
+        right: 4.3rem;
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    /* hero section */
+    .semi-footer address,
+    p {
+        font-size: 1rem;
+    }
+
+    .hero-text {
+        left: 6rem;
+    }
+
+    /* sort info section */
+    .sort-info p {
+        font-size: 0.7rem;
+    }
+
+    /* services section */
+    .Funiro-address {
+        width: auto;
+    }
+
+    .working-time {
+        margin: 0;
+        width: auto;
+    }
+
+    /* semi footer */
+
+    .semi-footer {
+        padding: 2rem;
+    }
+}

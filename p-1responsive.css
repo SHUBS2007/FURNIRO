@@ -1,0 +1,275 @@
+/*  for large size-1200px */
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {
+
+    /* nav bar */
+    nav li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    /* inspiration section */
+    .Inner-peace-section {
+        position: absolute;
+        top: 234em;
+    }
+}
+
+
+/* for tablets size-768px  */
+@media only screen and (max-width: 768px) {
+
+    /* hero-section */
+    .hero-aside {
+        height: 22em;
+        width: 30em;
+    }
+
+    .hero-aside h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-p2 {
+        width: auto;
+    }
+
+    .hero-aside button {
+        height: 4.5em;
+        width: 13em;
+    }
+
+    /* inspiration section */
+    .inspiration-img {
+        gap: 15px;
+    }
+
+    .inspiration-img-1 img {
+        height: 30rem;
+        width: 13.3rem;
+    }
+
+    .inspiration-img-2 img {
+        margin-top: -5rem;
+        height: 25rem;
+        width: 13rem;
+    }
+
+    /* inner peace section */
+    .Inner-peace-section {
+        position: absolute;
+        top: 265.5em;
+
+    }
+
+    .inener-peace {
+        margin: 1.5rem 0 0 1rem;
+        padding: 2.5rem 1rem;
+        height: 8rem;
+        width: 9rem;
+    }
+
+    .newsletter {
+        margin: 1rem;
+    }
+}
+
+/* for phone size-600px */
+@media only screen and (max-width: 600px) {
+
+    /* nav bar */
+    .menu {
+        margin-left: -2em;
+        margin-right: 1rem;
+    }
+
+    .icons {
+        font-size: 1.1rem;
+        gap: 1em;
+    }
+
+    /* hero section */
+    .hero-aside {
+        width: 24.5rem;
+    }
+
+    .hero-aside h1 {
+        font-size: 2em;
+    }
+
+    .hero-p2 {
+        font-size: 1rem;
+        width: 20rem;
+    }
+
+    .hero-aside button {
+        margin-top: 20px;
+        height: 3.9em;
+        width: 10em;
+    }
+
+    /* products section */
+    .discaunt {
+        left: 11rem;
+    }
+
+    .New {
+        left: 11rem;
+    }
+
+    /*inspiration section  */
+    .inspiration {
+        padding: 7rem 2rem;
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+
+    .inspiration-img {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .inspiration-img-1 img {
+        width: 25rem;
+    }
+
+    .inspiration-img-2 img {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .Inner-peace-section {
+        position: absolute;
+        top: 428em;
+    }
+
+    .inener-peace {
+        width: 13rem;
+    }
+
+
+    /* footer */
+    .semi-footer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .Funiro-address h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .semi-footer address,
+    p {
+        font-size: 1rem;
+    }
+
+    .links {
+        margin: 1rem 7rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Help {
+        margin: 1rem 6rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-inputs input {
+        height: 3rem;
+    }
+
+    .footer-inputs p {
+        font-size: 1.5rem;
+    }
+}
+
+/* small phone */
+@media only screen and (max-width: 375px) {
+
+    /* nav bar */
+    nav {
+        justify-content: center;
+    }
+
+    .menu {
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons {
+        font-size: 1rem;
+        margin-right: -1rem;
+    }
+
+    /*hero section */
+    .hero-aside {
+        width: 21.5rem;
+    }
+
+    /* products section */
+    .discaunt {
+        left: 8rem;
+    }
+
+    .New {
+        left: 8rem;
+    }
+
+    /* inspiration section */
+    .inspiration-text {
+        padding: 2rem 1rem;
+        width: 23rem;
+    }
+
+    .inspiration-img-1 img {
+        width: 20rem;
+    }
+
+    .inspiration-img-2 img {
+        width: 20rem;
+    }
+
+    .Inner-peace-section {
+        position: absolute;
+        top: 424em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* producs-section */
+    .producs-cards {
+        margin: 0 1rem;
+    }
+
+    .pc {
+        width: 100%;
+    }
+
+    /* products section */
+    .discaunt {
+        left: 14rem;
+    }
+
+    .New {
+        left: 14rem;
+    }
+
+    /* semi footer */
+
+    .semi-footer {
+        padding: 2rem;
+    }
+}
