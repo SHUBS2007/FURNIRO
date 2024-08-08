@@ -121,7 +121,12 @@
     .New {
         left: 11rem;
     }
-
+    .add-to-card{
+        padding-left: 0;
+    }
+    .add-to-card-btn{
+        margin-left: 3rem;
+    }
     /*inspiration section  */
     .inspiration {
         padding: 7rem 2rem;
@@ -220,11 +225,11 @@
 
     /* products section */
     .discaunt {
-        left: 8rem;
+        left: 12rem;
     }
 
     .New {
-        left: 8rem;
+        left: 12rem;
     }
 
     /* inspiration section */

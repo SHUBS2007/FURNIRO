@@ -66,7 +66,7 @@ ul {
 
 /* nav bar */
 nav {
-    margin: 0 5rem;
+    padding: 0 2rem;
     height: 5.5em;
     justify-content: space-between;
 }
@@ -247,13 +247,13 @@ ul {
 
 .pc:hover .add-to-card {
     display: block;
-
 }
 
 .add-to-card {
+    padding-top: 50%;
+    padding-left: 3rem;
     display: none;
     margin: -145% 0;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.318);
     position: relative;
     width: 16rem;
@@ -261,9 +261,6 @@ ul {
 }
 
 .add-to-card-btn {
-    margin-left: 3rem;
-    margin-top: 50%;
-    padding: 10px;
     border: none;
     height: 3em;
     width: 12em;
